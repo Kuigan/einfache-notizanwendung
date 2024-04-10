@@ -1,0 +1,26 @@
+{
+  "name": "einfache-notizanwendung",
+  "version": "1.0.0",
+  "description": "Einfache Notizanwendung",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/app.js",
+    "dev": "npm run build && npm run start"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuigan/einfache-notizanwendung.git"
+  },
+  "author": "Igor Kulinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuigan/einfache-notizanwendung/issues"
+  },
+  "homepage": "https://github.com/Kuigan/einfache-notizanwendung#readme",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.4"
+  }
+}
